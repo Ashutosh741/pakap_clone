@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+* {
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.started_btn {
+ border-radius: 50px;
+ /* background-color: linear-gradient(44.44deg, #ed2775 7.79%, #ff7448 94.18%); */
+ padding: 10px 30px;
+ margin-top: 10px;
+ background-color: #ed2775;
+ color: white;
+ font-size: 16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-img {
+ width: 360px;
+ left: 50px;
+ height: 300px;
+ position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.submenu-3 {
+ left: -650px;
+ position: absolute;
+ top: 40px;
+ width: 100vw;
+ background-color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.submenu-3 ul {
+ list-style: none;
+ padding-left: 0px;
+ /* padding-left: 30px; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.submenu_title {
+ font-size: 20px !important;
+ font-weight: bolder;
+ box-shadow: 0px 1px black;
+ margin-bottom: 10px;
+}
+
+.submenu-3 {
+ padding-bottom: 5px !important;
+ padding-top: 5px !important;
+}
+
+.page-item li {
+ padding-bottom: 5px !important;
+ padding-top: 5px !important;
+}
+
+.features_submenu {
+ /* display: none; */
+ position: relative;
+ left: 160px;
+ top: 0px;
+ background: orange;
+}
+
+#features:hover .features_submenu {
+ display: block;
+ left: 30px;
+}
+
+.down-angle {
+ float: right;
+ padding-top: 5px;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+ display: block;
 }
