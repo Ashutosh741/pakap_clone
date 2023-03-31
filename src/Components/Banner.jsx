@@ -8,6 +8,7 @@ import shape9 from "../Images/shape9.png";
 import shape7 from "../Images/shape7.png";
 import shape10 from "../Images/shape10.png";
 import shape2 from "../Images/shape2.png";
+import shape11 from "../Images/shape11.png";
 import Slider from "react-slick";
 import partner1 from "../Images/partner1.png";
 import partner2 from "../Images/partner2.png";
@@ -59,7 +60,7 @@ const Banner = () => {
         </div>
        </div>
       </div>
-      <div className="trusted_by ">
+      <div className="trusted_by">
        <div className="trusted_title">
         <span>Trusted by :</span>
        </div>
@@ -86,9 +87,6 @@ const Banner = () => {
      </div>
      <div className="col-4">
       <div className="right_banner d-flex">
-       {/* <div className="shape2">
-        <img src={shape2} />
-       </div> */}
        <div className="phone_img">
         <img src={mobile_img} />
        </div>
@@ -98,6 +96,11 @@ const Banner = () => {
       </div>
      </div>
     </div>
+   </div>
+
+   <div className="shape_overlay"></div>
+   <div className="shape11">
+    <img src={shape11} />
    </div>
   </div>
  );
