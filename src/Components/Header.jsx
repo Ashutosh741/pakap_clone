@@ -5,12 +5,10 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import logo from "../Images/black-logo.png";
 import navbar from "../Images/navbar.jpg";
 import Dropdown from "react-bootstrap/Dropdown";
-import DropdownButton from "react-bootstrap/DropdownButton";
-import DropdownMenu from "react-bootstrap/esm/DropdownMenu";
 const Header = () => {
  return (
   <div>
-   <Navbar bg="light" expand="lg">
+   <Navbar expand="lg" className="header_area">
     <Container>
      <Navbar.Brand href="#home">
       <img src={logo}></img>
@@ -22,7 +20,7 @@ const Header = () => {
         title="Home"
         id="basic-nav-dropdown"
         renderMenuOnMount={true}
-        className="me-3 bg-white"
+        className="me-3 "
        >
         <NavDropdown.Item href="#action/3.1">Home Demo-1</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.1">Home Demo-2</NavDropdown.Item>
@@ -42,7 +40,8 @@ const Header = () => {
        >
         <NavDropdown.Item href="#action/3.2">About Simple</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3">Modern </NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3" title="Features">
+        <NavDropdown.Item href="#action/3.3">Features </NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3">
          <Dropdown drop="end">
           <Dropdown.Toggle variant="none">Features</Dropdown.Toggle>
           <Dropdown.Menu>
@@ -140,3 +139,5 @@ const Header = () => {
  );
 };
 export default Header;
+
+// banner_area

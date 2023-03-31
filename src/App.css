@@ -73,3 +73,95 @@
 .nav-item.dropdown:hover .dropdown-menu {
  display: block;
 }
+
+.banner_area {
+ position: relative;
+ top: -70px;
+ padding-top: 180px !important;
+ background-image: linear-gradient(44.44deg, #ed2775 7.79%, #ff7448 94.18%);
+}
+
+.header_area {
+ position: relative;
+ z-index: 3;
+ background: transparent;
+}
+
+.free_trial {
+ background-color: rgba(255, 255, 255, 0.15);
+ border-radius: 20px;
+ margin-top: 80px;
+ margin-bottom: 20px;
+ font-size: 15px;
+ padding: 10px 20px;
+ width: fit-content;
+}
+
+.banner_title {
+ font-size: 50px;
+ color: white;
+ font-weight: bolder;
+}
+
+.btn {
+ border-radius: 30px;
+}
+.shape9 {
+ position: absolute;
+ left: 0px;
+ top: 0px;
+}
+
+.shape7 {
+ text-align: end;
+ padding-right: 120px;
+}
+
+.shape10 {
+ position: relative;
+ z-index: 0;
+ left: -50px;
+ top: 100px;
+}
+
+.shape2 {
+ /* position: absolute;
+ bottom: 130px; */
+ text-align: end;
+ position: relative;
+ top: -130px;
+}
+.trusted_title {
+ position: relative;
+ left: 30px;
+ bottom: 20px;
+ font-size: 18px;
+}
+
+.trusted_companies {
+ position: relative;
+ bottom: 50px;
+ left: 140px;
+ padding-bottom: 0px;
+ width: 700px;
+}
+
+.trusted_companies img {
+ width: 90%;
+}
+
+.banner_area::after {
+ background-image: url("./Images/banner-bg.png");
+ content: "";
+ background-position: center center;
+ background-size: cover;
+ opacity: 0.3;
+ height: 39px;
+ margin: -10px;
+ width: 300px;
+ position: absolute;
+ right: 10px;
+ border-top-right-radius: 4px;
+ border-bottom-right-radius: 4px;
+ z-index: 0;
+}
