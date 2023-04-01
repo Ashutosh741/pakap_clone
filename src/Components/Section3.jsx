@@ -59,15 +59,18 @@ const Section3 = () => {
        </div>
       </div>
      </div>
-     <div className="col-6 d-flex">
-      <div className="shape3">
-       <img src={shape3} />
-      </div>
-      <div className="right_img text-center ">
-       <img src={app_img} />
-      </div>
-      <div className="shape2">
-       <img src={shape2} />
+     <div className="col-6 ">
+      <div className="section3_right d-flex">
+       {" "}
+       <div className="shape3">
+        <img src={shape3} />
+       </div>
+       <div className="right_img text-center ">
+        <img src={app_img} />
+       </div>
+       <div className="shape2">
+        <img src={shape2} />
+       </div>
       </div>
      </div>
     </div>
