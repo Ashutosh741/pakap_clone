@@ -741,34 +741,235 @@ img {
  padding-bottom: 100px;
 }
 
-.software-integrations-content {
+.software-integration-content {
  padding-right: 15px;
 }
-.software-integrations-content .sub-title {
+.software-integration-content .sub-title {
  display: block;
  margin-bottom: 10px;
- background: var(--gradientColor);
+ background: linear-gradient(44.44deg, #ed2775 7.79%, #ff7448 94.18%);
  -webkit-background-clip: text;
  -webkit-text-fill-color: transparent;
  letter-spacing: 0.1em;
  font-weight: 600;
+ text-align: left;
 }
 
-.software-integrations-content h2 {
+.software-integration-content h2 {
  line-height: 1.4;
  font-size: 35px;
  margin-bottom: 15px;
 }
 
-.software-integrations-content .default-btn {
+.software-integration-content .default-btn {
  margin-top: 10px;
 }
-.software-integrations-content .sub-title {
- display: block;
- margin-bottom: 10px;
- background: var(--gradientColor);
+
+.software-integration-content .section-title {
+ text-align: center;
+ max-width: 660px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: 10px !important;
+}
+
+.software-integration-list {
+ margin-left: 15px;
+ position: relative;
+}
+
+.software-integration-list ul li:nth-child(1) {
+ top: 70px;
+ left: 100px;
+}
+.software-integration-list ul li:nth-child(2) {
+ left: 10%;
+ bottom: 23%;
+ width: 105px;
+ height: 105px;
+}
+.software-integration-list ul li img {
+ left: 0;
+ right: 0;
+ top: 50%;
+ position: absolute;
+ -webkit-transform: translateY(-50%);
+ transform: translateY(-50%);
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.software-integration-list ul li:nth-child(3) {
+ right: 0;
+ left: 14%;
+ bottom: 6%;
+ margin-left: auto;
+ margin-right: auto;
+}
+.software-integration-list ul li:nth-child(4) {
+ right: 40px;
+ bottom: 25%;
+ width: 120px;
+ height: 120px;
+}
+.software-integration-list ul li:nth-child(5) {
+ top: 14%;
+ right: 25%;
+ width: 90px;
+ height: 90px;
+}
+
+.software-integration-list ul li:nth-child(6) {
+ left: 0;
+ right: 0;
+ top: 50%;
+ width: 140px;
+ height: 140px;
+ -webkit-transform: translateY(-50%);
+ transform: translateY(-50%);
+ margin-left: auto;
+ margin-right: auto;
+}
+.software-integration-list ul li {
+ width: 100px;
+ height: 100px;
+ position: absolute;
+ border-radius: 50%;
+ text-align: center;
+ -webkit-transition: var(--transition);
+ transition: var(--transition);
+ background-color: white;
+ list-style: none;
+ -webkit-box-shadow: 5px 15px 35px rgba(38, 42, 55, 0.12);
+ box-shadow: 5px 15px 35px rgba(38, 42, 55, 0.12);
+}
+
+.software-integration-area .shape5 {
+ position: relative;
+ display: flex;
+ justify-content: end;
+ top: -100px;
+ right: 40px;
+}
+
+.right-software-integration .shape5 {
+ position: relative;
+ top: -80px;
+ display: flex;
+ justify-content: end;
+}
+
+.section9-area {
+ background: linear-gradient(
+  82deg,
+  #9f5ff1 -1.19%,
+  #ff54b0 50.99%,
+  #ff9f5a 100%
+ );
+ margin-bottom: 60px;
+ position: relative;
+}
+
+.div {
+ background-color: white;
+ padding: 30px;
+ margin: 1px;
+ border-radius: 10px;
+}
+
+.popular {
+ background: linear-gradient(44.44deg, #ed2775 7.79%, #ff7448 94.18%);
  -webkit-background-clip: text;
  -webkit-text-fill-color: transparent;
- letter-spacing: 0.1em;
- font-weight: 600;
+ font-size: 15px;
+ font-weight: bolder;
+ position: relative;
+ top: -15px;
+ right: -10px;
 }
+
+.price {
+ font-size: 50px;
+ font-weight: bolder;
+ margin-bottom: 25px;
+}
+.price span {
+ font-size: 15px;
+ font-weight: lighter;
+ color: #716c80;
+}
+
+.pricing-btn {
+ padding-bottom: 30px;
+}
+
+.check-list li {
+ list-style: none;
+ padding: 5px;
+}
+
+.check-list {
+ padding-left: 0px !important;
+}
+
+.check-list li i {
+ padding-right: 10px;
+}
+
+.fa-check {
+ color: rgb(92, 239, 92);
+}
+
+.fa-xmark {
+ color: red;
+}
+
+.pricing-title {
+ padding-bottom: 20px;
+}
+
+.pricing-tab {
+ background-color: white;
+ border-radius: 50px;
+ width: fit-content;
+ padding: 10px;
+}
+
+.nav-link {
+ color: black;
+}
+
+.nav-pills .nav-link.active {
+ color: white;
+ background: linear-gradient(
+  44.44deg,
+  #ed2775 7.79%,
+  #ff7448 94.18%
+ ) !important;
+}
+
+.nav-pills .nav-link {
+ border-radius: 50px;
+ color: black;
+}
+
+.section9-area .shape7 {
+ position: absolute;
+ left: 350px;
+ top: 500px;
+}
+.section9-area .shape6 {
+ position: absolute;
+ bottom: -40px;
+ left: 60px;
+}
+
+.more-plans a {
+ color: white;
+ position: relative;
+ bottom: -30px;
+ right: -150px;
+ text-decoration: underline;
+}
+
+/* section 10 starts from here */
