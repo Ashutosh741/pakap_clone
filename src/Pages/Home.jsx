@@ -11,24 +11,28 @@ import Section7 from "../Components/Section7";
 import Section8 from "../Components/Section8";
 import Section9 from "../Components/Section9";
 import Section10 from "../Components/Section10";
+import Section11 from "../Components/Section11";
+import Section12 from "../Components/Section12";
 
 const Home = () => {
- return (
-  <div>
-   <Header />
-   <Banner />
-   <Section1 />
-   <Section2 />
-   <Section3 />
-   <Section4 />
-   <Section5 />
-   <Section6 />
-   <Section7 />
-   <Section8 />
-   <Section9 />
-   <Section10 />
-  </div>
- );
+    return (
+        <div>
+            <Header />
+            <Banner />
+            <Section1 />
+            <Section2 />
+            <Section3 />
+            <Section4 />
+            <Section5 />
+            <Section6 />
+            <Section7 />
+            <Section8 />
+            <Section9 />
+            <Section10 />
+            <Section11 />
+            <Section12 />
+        </div>
+    );
 };
 
 export default Home;
