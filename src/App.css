@@ -973,3 +973,47 @@ img {
 }
 
 /* section 10 starts from here */
+
+
+.single-feedback-box {
+    margin: 0px 30px;
+}
+
+.single-feedback-box .user img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50% !important;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+
+.single-feedback-box h5 {
+    font-weight: bolder;
+}
+
+.stars i {
+    color: orange;
+    font-size: 15px;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+}
+
+.rating {
+    justify-content: space-between;
+}
+
+.slick-dots li button:before {
+    font-size: 15px !important;
+
+    padding-top: 50px;
+
+}
+
+.slick-dots li.slick-active button:before {
+    background: linear-gradient(44.44deg,
+            #ed2775 7.79%,
+            #ff7448 94.18%) !important;
+}
