@@ -1017,3 +1017,95 @@ img {
             #ed2775 7.79%,
             #ff7448 94.18%) !important;
 }
+
+
+
+/* Section 11 starts from here */
+
+.section11_area .contact_us h1 {
+    padding-bottom: 20px;
+}
+
+.section11_area .free-trial-content {
+    background: linear-gradient(44.44deg, #ed2775 7.79%, #ff7448 94.18%);
+    color: white;
+    padding: 100px 0px;
+    position: relative;
+}
+
+.section11_area .reach-me {
+    width: 60%;
+    /* height: 100%; */
+    padding: 10px 0px;
+    margin: auto;
+    justify-content: space-between;
+    border-radius: 5px;
+    ;
+}
+
+.section11_area .reach-me input {
+    width: 70%;
+    outline: none;
+    border: none;
+    padding-right: 10px;
+}
+
+.free-trial-content .shape6 {
+    position: absolute;
+    bottom: -40px;
+    left: -80px;
+}
+
+.free-trial-content .shape7 {
+    position: absolute;
+    right: 150px;
+    top: 140px;
+}
+
+.free-trial-content .default-btn::before {
+    border-radius: 5px !important;
+}
+
+/* section 12 starts here  */
+
+.section12_area {
+    background-color: #262A37;
+
+}
+
+.section12_area .footer-content .frame img {
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+.section12_area .footer-content .socials i {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #3D4354;
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+}
+
+.section12_area .line {
+    height: 1px;
+    opacity: 0.2;
+    margin-top: 40px;
+}
+
+.section12_area .routes {
+    margin-top: 40px !important;
+    margin-right: 10px !important;
+    justify-content: center;
+}
+
+.section12_area .routes h6 {
+    margin-right: 30px;
+    ;
+}
+
+.section12_area .light {
+    opacity: 0.4;
+    font-size: 15px;
+}
